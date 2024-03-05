@@ -1,0 +1,22 @@
+/* App.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+}
+
+.sign-out-button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.videos-container {
+  padding: 20px;
+  background-color: black; /* Adicione essa linha para definir o fundo preto */
+  color: white; /* Adicione essa linha para definir o texto como branco */
+}

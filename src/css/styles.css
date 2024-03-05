@@ -1,0 +1,33 @@
+body {
+  background-color: #000; /* Alterado para preto */
+  color: #fff; /* Cor do texto alterada para branco */
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.search-box {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+input[type="text"] {
+  width: 200px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.youtube-icon {
+  color: red;
+  font-size: 1em;
+}
