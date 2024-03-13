@@ -5,7 +5,6 @@ import YouTubeSearch from './components/YouTubeSearch';
 import Login from './components/Login.jsx';
 import { RiYoutubeFill } from 'react-icons/ri';
 import './css/App.css';
-import { Redirect } from 'react-router-dom';
 
 function App() {
   const [session, setSession] = useState(null);
@@ -49,7 +48,7 @@ function App() {
     try {
       await supabase.auth.signOut();
       setSession(null);
-      history.push('/login'); // Redireciona para a rota de login após o logout
+      history.push('/login'); 
     } catch (error) {
       console.error('Erro ao fazer logout:', error.message);
     }
