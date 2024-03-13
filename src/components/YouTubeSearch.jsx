@@ -51,7 +51,7 @@ const YouTubeSearch = (props) => {
           part: 'snippet',
           chart: 'mostPopular',
           maxResults: 2,
-          key: 'AIzaSyCorVC8klBItYQ_kJ-bSjCgDAzgC6X3o0g',
+          key: 'AIzaSyDa-y-UJlHRqdufAbqB2TD0yhrfciNiRXw',
         },
       });
 
@@ -72,7 +72,7 @@ const YouTubeSearch = (props) => {
           part: 'snippet',
           chart: 'mostPopular',
           maxResults: 2,
-          key: 'AIzaSyCorVC8klBItYQ_kJ-bSjCgDAzgC6X3o0g',
+          key: 'AIzaSyDa-y-UJlHRqdufAbqB2TD0yhrfciNiRXw',
 
           pageToken: pageToken,
         },
@@ -94,7 +94,7 @@ const YouTubeSearch = (props) => {
         params: {
           part: 'snippet',
           maxResults: 2,
-          key: 'AIzaSyCorVC8klBItYQ_kJ-bSjCgDAzgC6X3o0g',
+          key: 'AIzaSyDa-y-UJlHRqdufAbqB2TD0yhrfciNiRXw',
 
           q: searchTerm,
           type: 'video',
@@ -118,7 +118,7 @@ const YouTubeSearch = (props) => {
         params: {
           part: 'snippet',
           maxResults: 3,
-          key: 'AIzaSyCorVC8klBItYQ_kJ-bSjCgDAzgC6X3o0g',
+          key: 'AIzaSyDa-y-UJlHRqdufAbqB2TD0yhrfciNiRXw',
 
           q: query,
           type: 'channel',
@@ -140,7 +140,7 @@ const YouTubeSearch = (props) => {
         params: {
           part: 'snippet',
           maxResults: 2,
-          key: 'AIzaSyCorVC8klBItYQ_kJ-bSjCgDAzgC6X3o0g',
+          key: 'AIzaSyDa-y-UJlHRqdufAbqB2TD0yhrfciNiRXw',
 
           q: searchTerm,
           type: 'video',
@@ -170,7 +170,7 @@ const YouTubeSearch = (props) => {
         params: {
           part: 'snippet',
           maxResults: 2,
-          key: 'AIzaSyCorVC8klBItYQ_kJ-bSjCgDAzgC6X3o0g',
+          key: 'AIzaSyDa-y-UJlHRqdufAbqB2TD0yhrfciNiRXw',
 
           channelId: channelId,
           type: 'video',
@@ -194,7 +194,7 @@ const YouTubeSearch = (props) => {
         params: {
           part: 'snippet',
           maxResults: 2,
-          key: 'AIzaSyCorVC8klBItYQ_kJ-bSjCgDAzgC6X3o0g',
+          key: 'AIzaSyDa-y-UJlHRqdufAbqB2TD0yhrfciNiRXw',
 
           channelId: channelId,
           type: 'video',
