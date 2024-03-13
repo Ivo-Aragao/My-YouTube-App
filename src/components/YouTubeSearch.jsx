@@ -51,7 +51,7 @@ const YouTubeSearch = (props) => {
           part: 'snippet',
           chart: 'mostPopular',
           maxResults: 2,
-          //CHAVE
+          key: 'AIzaSyCorVC8klBItYQ_kJ-bSjCgDAzgC6X3o0g',
         },
       });
 
@@ -72,7 +72,8 @@ const YouTubeSearch = (props) => {
           part: 'snippet',
           chart: 'mostPopular',
           maxResults: 2,
-          //CHAVE
+          key: 'AIzaSyCorVC8klBItYQ_kJ-bSjCgDAzgC6X3o0g',
+
           pageToken: pageToken,
         },
       });
@@ -93,7 +94,8 @@ const YouTubeSearch = (props) => {
         params: {
           part: 'snippet',
           maxResults: 2,
-          //CHAVE
+          key: 'AIzaSyCorVC8klBItYQ_kJ-bSjCgDAzgC6X3o0g',
+
           q: searchTerm,
           type: 'video',
           pageToken: pageToken,
@@ -116,7 +118,8 @@ const YouTubeSearch = (props) => {
         params: {
           part: 'snippet',
           maxResults: 3,
-          //CHAVE
+          key: 'AIzaSyCorVC8klBItYQ_kJ-bSjCgDAzgC6X3o0g',
+
           q: query,
           type: 'channel',
         },
@@ -137,7 +140,8 @@ const YouTubeSearch = (props) => {
         params: {
           part: 'snippet',
           maxResults: 2,
-          //CHAVE
+          key: 'AIzaSyCorVC8klBItYQ_kJ-bSjCgDAzgC6X3o0g',
+
           q: searchTerm,
           type: 'video',
         },
@@ -166,7 +170,8 @@ const YouTubeSearch = (props) => {
         params: {
           part: 'snippet',
           maxResults: 2,
-          //CHAVE
+          key: 'AIzaSyCorVC8klBItYQ_kJ-bSjCgDAzgC6X3o0g',
+
           channelId: channelId,
           type: 'video',
         },
@@ -189,7 +194,8 @@ const YouTubeSearch = (props) => {
         params: {
           part: 'snippet',
           maxResults: 2,
-          //CHAVE
+          key: 'AIzaSyCorVC8klBItYQ_kJ-bSjCgDAzgC6X3o0g',
+
           channelId: channelId,
           type: 'video',
           pageToken: channelPageToken, 
