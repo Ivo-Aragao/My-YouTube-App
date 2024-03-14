@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Switch, useHistory } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch, useHistory } from 'react-router-dom';
 import { supabase } from './services/supabase.js';
 import YouTubeSearch from './components/YouTubeSearch';
 import Login from './components/Login.jsx';
