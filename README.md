@@ -1,25 +1,41 @@
-YouTube Search App
-Este é um aplicativo simples de busca de vídeos do YouTube, onde os usuários podem pesquisar vídeos, visualizar vídeos populares e visualizar vídeos de canais específicos.
+
+Aplicativo de Busca de Vídeos do YouTube
+Este projeto é uma aplicação React que permite aos usuários buscar vídeos do YouTube, visualizar vídeos populares e explorar canais. Ele utiliza a API de Dados do YouTube para obter informações sobre vídeos e canais.
 
 Funcionalidades
-Pesquisa de Vídeos: Os usuários podem pesquisar vídeos do YouTube inserindo termos de pesquisa na barra de pesquisa.
-Visualização de Vídeos Populares: Os usuários podem visualizar vídeos populares do YouTube na página inicial do aplicativo.
-Visualização de Canais: Os usuários podem visualizar vídeos de canais específicos ao clicar nos resultados de pesquisa relacionados a canais.
-Login e Logout: O aplicativo oferece autenticação por meio do Supabase, permitindo aos usuários fazer login e logout.
-Como usar
-Instalação das Dependências: Execute npm install no diretório raiz do projeto para instalar as dependências necessárias.
-Configuração do Supabase: Certifique-se de configurar corretamente o Supabase e as credenciais do Google e GitHub para autenticação.
-Execução do Aplicativo: Execute npm start para iniciar o aplicativo em um ambiente de desenvolvimento.
-Tecnologias Utilizadas
-React: Biblioteca JavaScript para construção de interfaces de usuário.
-Axios: Cliente HTTP para fazer requisições AJAX.
-React Router: Biblioteca para roteamento de aplicativos React.
-Supabase: Plataforma de backend como serviço para autenticação e armazenamento de dados.
-YouTube Data API: API do YouTube para pesquisa e visualização de vídeos.
-Contribuição
-Se você quiser contribuir com este projeto, sinta-se à vontade para fazer um fork e enviar uma pull request. Você também pode abrir issues para relatar bugs ou sugerir novas funcionalidades.
-Autor:
-Ivo Aragao "https://github.com/Ivo-Aragao"
+Busca de Vídeos: Os usuários podem buscar vídeos inserindo um termo de busca na caixa de pesquisa. A aplicação exibe uma lista de vídeos correspondentes à consulta de pesquisa.
+Vídeos Populares: A aplicação exibe inicialmente vídeos populares obtidos do ranking de vídeos mais populares do YouTube.
+Exploração de Canais: Os usuários podem explorar canais do YouTube clicando nas miniaturas dos canais exibidas nos resultados da pesquisa.
+Autenticação: A autenticação é integrada usando a autenticação do Supabase, permitindo que os usuários façam login usando contas do Google ou GitHub.
+Estrutura do Projeto
+src/components: Contém componentes React para diferentes partes da aplicação, como a lista de vídeos, item de vídeo, busca do YouTube e componentes de login.
+src/css: Inclui arquivos CSS para estilizar a aplicação.
+src/services: Contém o arquivo de configuração do Supabase para autenticação.
+Instalação e Uso
+Clone este repositório para sua máquina local.
+Navegue até o diretório do projeto.
+Instale as dependências usando npm install.
+Crie um arquivo .env no diretório raiz e adicione sua chave da API do YouTube Data como REACT_APP_YOUTUBE_API_KEY=sua_chave_api_aqui.
+Execute a aplicação usando npm start.
+Acesse a aplicação em seu navegador em http://localhost:3000.
+Requisitos
+Node.js
+React
+react-router-dom
+axios
+@supabase/supabase-js
+@supabase/auth-ui-react
+Contribuições
+Contribuições para este projeto são bem-vindas! Você pode contribuir abrindo problemas para correções de bugs ou solicitações de novos recursos, ou enviando pull requests com melhorias ou novos recursos.
+
+Autores
+ivo aragao "https://github.com/Ivo-Aragao/"
+
+Licença
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para obter detalhes.
+
+Agradecimentos
+Um agradecimento especial aos criadores da API de Dados do YouTube e do Supabase por fornecerem as ferramentas necessárias para construir esta aplicação.
 
 
 
